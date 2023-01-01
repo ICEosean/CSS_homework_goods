@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 288px;
+}
+
+.goods {
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #666;
+}
+
+.box p:first-of-type {
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 10px;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+
+.price>span>a {
+    color: #e60012;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.before {
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.progress .font {
+    color: #666;
+    font-size: 12px;
+    padding-left: 11px;
+}
+
+.progress .shuzhi {
+    color: #f24349;
+    font-size: 12px;
+}
+
+.progress span:last-of-type {
+    padding: 0;
+}
+
+.bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    margin-right: 8px;
+    border: 1px solid #b1191a;
+    border-radius: 6px;
+}
+
+.bar_in {
+    width: 87%;
+    height: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f24349;
+}
+
+.buy {
+    display: block;
+    width: 288px;
+    height: 50px;
+    margin-top: 6px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #b1191a;
+}
